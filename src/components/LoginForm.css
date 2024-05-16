@@ -1,0 +1,58 @@
+/* LoginForm.css */
+
+body {
+    background-color: #000000;
+    /* Light gray background for the entire page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #837979;
+    /* White background for the login box */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Drop shadow effect */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    /* Dark gray text color */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #674b4b;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #007bff;
+    /* Blue button background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* Smooth transition */
+}
+
+button:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+}
